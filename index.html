@@ -93,5 +93,16 @@
     <footer>
 
     </footer>
+
+    <script src="scripts/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".projet-item"), {
+            perspective: 800,
+            max: 25,
+            speed: 100
+        });
+        
+        VanillaTilt.init(document.querySelectorAll(".projet-item"));
+    </script>
 </body>
 </html>
