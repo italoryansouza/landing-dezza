@@ -67,7 +67,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding: 5.71% 89px;
+    padding: 7% 89px;
     width: 100%;
     background-color: var(--corcinza);
     gap: 22px;
