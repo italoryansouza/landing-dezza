@@ -1,6 +1,54 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+:root {
+    --corcinza: #545454;
+    --corcinzaclaro: #cecece;
+    --fontegeral: "Courier Prime", monospace;
+}
+
+body {
+    font-family: var(--fontegeral);
+}
+
+header {
+    background-color: var(--corcinzaclaro);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+#page-title {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
+#logo img{
+    width: 100px;
+}
+
+#nav-bar {
+    display: flex;
+}
+
+#nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+#nav-list li{
+    list-style: none;
+}
+
+#nav-list a, #nav-list a:active {
+    text-decoration: none;
+    color: var(--corcinza);
 }
