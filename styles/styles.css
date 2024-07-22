@@ -9,6 +9,7 @@
 :root {
     --corcinza: #545454;
     --corcinzaclaro: #cecece;
+    --corazul: #1E234D;
     --fontegeral: "Courier Prime", monospace;
 }
 
@@ -55,19 +56,20 @@ header {
 
 #sobre-mim {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
 }
 
 #sobre-mim img {
     width: 600px;
+    background-color: ;
 }
 
 #me-text {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding: 7% 89px;
+    padding: 5.2% 89px;
     width: 100%;
     background-color: var(--corcinza);
     gap: 22px;
@@ -91,6 +93,6 @@ header {
 }
 
 #projetos {
-    background-color: blue;
+    background-color: var(--corazul);
     height: 500px;
 }
