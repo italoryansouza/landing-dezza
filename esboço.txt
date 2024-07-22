@@ -1,0 +1,4 @@
+Cores:
+
+amarelo: #FFC950
+azul-cinza: #1d2141
